@@ -7,7 +7,7 @@ from app.config import settings
 
 
 class BookStatus(str, Enum):
-    AVAILABLE = 'в наличи'
+    AVAILABLE = 'в наличии'
     ISSUED = 'выдана'
 
 
